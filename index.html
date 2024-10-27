@@ -26,18 +26,35 @@
         #clickCount {
             color: black; /* Make click count text visible */
         }
+        #bottomLink {
+            color: white;
+            margin-top: 40px;
+            display: block;
+        }
     </style>
 </head>
 <body>
     Be careful.!!!
     <br>
-    <a href="https://www.youtube.com/watch?v=DXuCIi1lP4U" style="color: white;">open link</a>
-    
+   <!-- 
+   INCREDIBLE! YOU’VE MADE IT THIS FAR—JUST A LITTLE FURTHER.
+   
+   Remember:
+   "I’m never gonna give you up on this journey."
+   "This link is solid—I’m never gonna let you down."
+   "Keep going, I’ll never run around and desert you!"
+   
+   You’re on the path to greatness… or maybe just a surprise? 😏 
+   -->
+
     <div>
         <button id="clickButton">Click Me 10000 times.</button>
         <p id="clickCount">Clicks: <span id="count">0</span></p>
         <p id="message">Psych</p>
     </div>
+
+    <!-- Link positioned at the bottom -->
+    <a id="bottomLink" href="https://www.youtube.com/watch?v=DXuCIi1lP4U">open link</a>
 
     <script>
         const clickButton = document.getElementById('clickButton');
