@@ -9,7 +9,10 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 20px;
-            background-color: white; /* Light background for contrast */
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         button {
             padding: 10px 20px;
@@ -28,7 +31,9 @@
         }
         #bottomLink {
             color: white;
-            margin-top: 40px;
+            margin-top: auto;
+            padding: 20px;
+            background-color: black;
             display: block;
         }
     </style>
@@ -53,7 +58,7 @@
         <p id="message">Psych</p>
     </div>
 
-    <!-- Link positioned at the bottom -->
+    <!-- Link positioned at the very bottom of the viewport -->
     <a id="bottomLink" href="https://www.youtube.com/watch?v=DXuCIi1lP4U">open link</a>
 
     <script>
